@@ -11,4 +11,4 @@ function receivesAFunction(callback) {
     return function() {
       console.log("I'm an anonymous function!");
     };
-  }
+}
