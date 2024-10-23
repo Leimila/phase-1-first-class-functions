@@ -1,11 +1,11 @@
 function receivesAFunction(callback) {
-    callback();  // Calls the passed-in function
+    callback();  
   }
   function returnsANamedFunction() {
     function namedFunction() {
       console.log("I'm a named function!");
     }
-    return namedFunction;  // Return the named function
+    return namedFunction;  
   }
   function returnsAnAnonymousFunction() {
     return function() {
